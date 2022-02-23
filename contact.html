@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>David Rivier || CPO / VP Product || Contact </title>
+        <link rel="canonical" href="https://davidrivier.com/" />
+	    <meta property="og:locale" content="en_UK" />
+	    <meta property="og:type" content="website" />
+	    <meta property="og:title" content="David Rivier || CPO / VP Product || Contact" />
+        <meta property="og:description" content="David Rivier's website" />
+	    <meta property="og:url" content="https://davidrivier.com/" />
+	    <meta property="og:site_name" content="David Rivier" />
+	    <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="David Rivier | Contact">
+        <meta name="twitter:site" content="@davidrivier"/>
+        <meta name="twitter:description" content=" I’m David, a product leader (CPO / VP Product) based in London, UK.">
+        <meta name="twitter:data1" content="3 minutes"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body {
+                font-family: "Lato", sans-serif;
+                transition: background-color .5s;
+            }
+
+            .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+                }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+            #main {
+                transition: margin-left .5s;
+                padding: 16px;
+            }
+
+            @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+            }
+
+            .content {
+            margin-left: auto;
+            margin-right: auto;
+            float: center;
+            width: 80%;
+            }
+
+            .footer {
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #111;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            }
+
+            .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            }
+
+            .title {
+            color: grey;
+            font-size: 18px;
+            }
+
+            button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            }
+
+            a {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+            }
+
+            button:hover, a:hover {
+            opacity: 0.7;
+            }
+
+
+
+        </style>
+     
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+            document.body.style.backgroundColor = "white";
+        }
+         </script>
+
+        <div id="main">
+
+            <div class="card">
+                <img src="davidpro.png" alt="David Rivier" style="width:100%">
+                <h1>David Rivier</h1>
+                <p class="title">Senior Product leader </p>
+                <p>Product advisor and mentor</p>
+                <a href="https://twitter.com/davidrivier"><i class="fa fa-twitter"></i></a>  
+                <a href="https://www.linkedin.com/in/davidrivier/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/davidrivier"><i class="fa fa-github"></i></a> 
+                <a href="https://medium.com/@davidrivier"><i class="fa fa-medium"></i></a> 
+
+                <p><a href="mailto:&#100;&#97;&#118;&#105;&#100;&#64;&#114;&#105;&#118;&#105;&#101;&#114;&#46;&#109;&#101;"><button>Contact</button></a></p>
+              </div>
+
+           
+        </div>
+
+        </div>
+        <div class="footer">
+            This page isn't finished yet. Get in touch on Twitter (@davidrivier),  via e-mail (&#100;&#97;&#118;&#105;&#100;&#64;&#114;&#105;&#118;&#105;&#101;&#114;&#46;&#109;&#101;) or on Linkedin ( Linkedin.com/in/davidrivier )
+        </div>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36541506-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-36541506-1');
+        </script>
+
+    
+    </body>
+
+
+
+</html>
